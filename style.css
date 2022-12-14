@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+     
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 200px;
+    width: 100%;
+    border: 1px solid red ;
+}
+
+.header img{
+     
+     height: 50%;
+}
