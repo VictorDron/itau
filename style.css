@@ -1,17 +1,40 @@
 *{
     box-sizing: border-box;
+    margin: 0%;
 }
 .header{
      
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    height: 200px;
+    height: 90px;
     width: 100%;
+    background-color:#EC7000 ;
     border: 1px solid red ;
 }
 
-.header img{
+#img1{
+ 
+    height: 100%;
+}
+
+.img1{
      
      height: 100%;
+     flex: 30%;
+     border: 1px solid blue ;
+}
+
+#text1{ 
+    margin-top: 2.5%;
+    font-size: 30px;
+}
+
+.text1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex: 70%;
 }
